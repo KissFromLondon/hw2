@@ -1,0 +1,131 @@
+/*  универсальный селектор */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+/* селектор класса */
+.wrapper {
+  width: 900px;
+  margin: auto; /* размещение враппера посередине */
+  padding-top: 77px;
+}
+/* header */
+header {
+  margin-bottom: 100px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.list-item {
+  display: inline-block;
+  margin-right: 95px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  padding: 0 15px;
+  text-align: center;
+}
+
+.list-link:hover,
+.list-link:focus {
+  color: #03a9f4;
+}
+/* main */
+main {
+  font-size: 0;
+}
+
+.card {
+  font-size: 16px;
+  display: inline-block;
+  width: calc(50% - 30px);
+  margin-bottom: 135px;
+}
+
+.card:nth-child(5) {
+  /*я могла как-то объединить 5 и 6 в одном правиле?*/
+  margin-bottom: 57px;
+}
+
+.card:nth-child(6) {
+  margin-bottom: 57px;
+}
+
+.card:nth-child(2n + 1) {
+  margin-right: 60px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-style: 30px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+}
+
+.image-wrapper {
+  margin-bottom: 30px;
+}
+
+.card-image {
+  height: 280px;
+  width: 420px;
+}
+
+.card-description {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+}
+
+.title {
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+/* footer */
+footer {
+  margin-bottom: 70px;
+  text-align: center; /*не уверена, что кнопку 
+    надо было так разместить по центру*/
+}
+
+button {
+  padding: 20px 35px 20px 35px;
+  color: rgb(98, 98, 98);
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(98, 98, 98); 
+}
