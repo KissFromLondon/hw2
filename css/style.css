@@ -57,6 +57,7 @@ main {
   display: inline-block;
   width: calc(50% - 30px);
   margin-bottom: 135px;
+  vertical-align: top;
 }
 
 .card:nth-child(5) {
@@ -89,7 +90,7 @@ main {
 
 img {
   display: block;
-  min-width: 100%;
+  width: 100%;
 }
 
 .image-wrapper {
